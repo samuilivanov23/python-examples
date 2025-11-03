@@ -7,8 +7,12 @@ def test_add():
   assert result == 5
 
 def test_subtract():
-  result = my_functions.subtract(5, 3)
-  assert result == 2
+  result = my_functions.subtract(5, 2)
+  assert result == 3
+
+def test_abs_subtract():
+  result = my_functions.abs_subtract(10, 15)
+  assert result == 5
 
 def test_add_strings():
   result = my_functions.add("I like ", "cheese burgers")
