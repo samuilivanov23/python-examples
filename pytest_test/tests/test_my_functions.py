@@ -32,6 +32,6 @@ def test_very_slow():
 def test_add():
   assert my_functions.add(1, 2) == 3
 
-@pytest.mark.xfail(reason="We know we cannot divide by zero!")
+@pytest.mark.xfail(reason="Division by zero is not allowed!")
 def test_divide_by_zero():
   my_functions.divide(4, 0)
