@@ -6,6 +6,10 @@ def test_add():
   result = my_functions.add(1, 4)
   assert result == 5
 
+def test_subtract():
+  result = my_functions.subtract(5, 3)
+  assert result == 2
+
 def test_add_strings():
   result = my_functions.add("I like ", "cheese burgers")
   assert result == "I like cheese burgers"
