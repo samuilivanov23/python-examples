@@ -7,8 +7,8 @@ def test_add():
   assert result == 5
 
 def test_add_strings():
-  result = my_functions.add("i like ", "burgers")
-  assert result == "i like burgers"
+  result = my_functions.add("I like ", "cheese burgers")
+  assert result == "I like cheese burgers"
 
 def test_divide():
   result = my_functions.divide(9, 3)
