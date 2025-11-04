@@ -38,3 +38,10 @@ class Rectangle(Shape):
 class Square(Rectangle):
   def __init__(self, side_length):
     super().__init__(side_length, side_length)
+
+class Cube():
+  def __init__(self, length):
+    self.length = length
+  
+  def volume(self):
+    return self.length * self.length * self.length
