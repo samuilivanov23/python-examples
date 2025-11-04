@@ -40,8 +40,8 @@ class Square(Rectangle):
     super().__init__(side_length, side_length)
 
 class Cube():
-  def __init__(self, length):
-    self.length = length
+  def __init__(self, side_length):
+    self.side_length = side_length
   
   def volume(self):
-    return self.length * self.length * self.length
+    return self.side_length * self.side_length * self.side_length
