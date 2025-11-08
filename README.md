@@ -1,2 +1,2 @@
-# testing-git-flows
-Private repo for testing git scenarios
+# Python examples and test projects
+Private repo for Python training
